@@ -3,7 +3,7 @@ import HomePage from './HomePage';
 import UserListPage from './UserListPage';
 import UserDetailPage from './UserDetailPage';
 
-createBrowserRouter([
+const router = createBrowserRouter([
   {
     path: '/',
     element: <HomePage />,
@@ -17,3 +17,5 @@ createBrowserRouter([
     element: <UserDetailPage />,
   },
 ]);
+
+export default router;
