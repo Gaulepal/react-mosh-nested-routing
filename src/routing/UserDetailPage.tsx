@@ -4,7 +4,7 @@ const UserDetailPage = () => {
   const params = useParams();
   console.log('parama object::', params);
 
-  return <p>User: {params.id}</p>;
+  return <p>User: {params.id ? params.id : 'User not selected'}</p>;
 };
 
 export default UserDetailPage;
