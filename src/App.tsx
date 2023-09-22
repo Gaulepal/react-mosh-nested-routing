@@ -1,12 +1,10 @@
 import './App.css';
-import TodoForm from './react-query/TodoForm';
-import TodoList from './react-query/TodoList';
+import Layout from './routing/Layout';
 
 function App() {
   return (
     <>
-      <TodoForm />
-      <TodoList />
+      <Layout />
     </>
   );
 }
