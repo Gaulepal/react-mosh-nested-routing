@@ -7,7 +7,7 @@ const NavBar = () => {
       <NavLink
         to='/'
         className={({ isActive }) =>
-          isActive ? 'text-green-400 font-bold' : ''
+          isActive ? 'text-green-400 font-bold pr-6' : 'pr-6'
         }
       >
         Home
