@@ -2,10 +2,10 @@ const HomePage = () => {
   return (
     <>
       <p>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-        Incidunt, mollitia!
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt,
+        mollitia!
       </p>
-      <a href="/users">Users</a>
+      <a href='/users'>Users</a>
     </>
   );
 };
